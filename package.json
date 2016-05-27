@@ -1,6 +1,6 @@
 {
   "name": "tc-core-library-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Topcoder Core library for express based microservices",
   "main": "index.js",
   "author": "Parth Shah",
@@ -27,7 +27,19 @@
     "node": ">= 5"
   },
   "scripts": {
-    "test-local": "./node_modules/.bin/mocha -w --compilers js:babel-core/register **/*.spec.js",
-    "test-cov": "./node_modules/.bin/mocha --compilers js:babel-core/register **/*.spec.js"
-  }
+    "test-local": "mocha -w --compilers js:babel-core/register **/*.spec.js",
+    "test-cov": "mocha --compilers js:babel-core/register **/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appirio-tech/tc-core-library-js.git"
+  },
+  "keywords": [
+    "express",
+    "topcoder"
+  ],
+  "bugs": {
+    "url": "https://github.com/appirio-tech/tc-core-library-js/issues"
+  },
+  "homepage": "https://github.com/appirio-tech/tc-core-library-js#readme"
 }
