@@ -1,24 +1,19 @@
-'use strict';
+'use strict'
 
-import jwtAuthenticator from './lib/middleware/jwtAuthenticator'
-import logger from './lib/middleware/logger'
-import util from './lib/util'
+exports = module.exports = {
 
+  // ---------------------------
+  // register middlewares
+  // ---------------------------
+  middleware: {
+    jwtAuthenticator: require('./lib/middleware/jwtAuthenticator'),
+    logger: require('./lib/middleware/logger')
 
-
-exports = module.exports = function(config) {
-  return {
-    // ---------------------------
-    // register middlewares
-    // ---------------------------
-    middleware: {
-      jwtAuthenticator: jwtAuthenticator(config),
-      logger: logger(config)
-
-    },
-
-    util: util(config)
-
-  }
+  },
+  // ---------------------------
+  // util
+  // ---------------------------
+  util: require('./lib/util'),
+  logger: require('./lib/logger')
 
 }
