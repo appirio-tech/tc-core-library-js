@@ -14,7 +14,8 @@ Functions to wrap response based on V3 API specification.
 ## Middleware
 * jwtAuthenticator
 
-  Authenticates the JWT passed in the request header (`Authroization: Bearer eHsdfsdf3234SSDF... `). If token is missing, invalid or expired middleware will return a HTTP 403 status. `authSecret` used to decrypt JWT can be passed in. Alternatively for convenience, middleware attempts to read secret from [config](https://github.com/lorenwest/node-config).
+  Authenticates the JWT passed in the request header (`Authroization: Bearer eHsdfsdf3234SSDF... `). `authSecret` used to decrypt JWT can be passed in. Alternatively for convenience, middleware attempts to read secret from [config](https://github.com/lorenwest/node-config). 
+  If token is missing, invalid or expired middleware will return a HTTP 403 status. If authenticated, request object is annotated with 'authUser' object (JWT payload) which contains userId and users' roles..
 
 * logger
 
