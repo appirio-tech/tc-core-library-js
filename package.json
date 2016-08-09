@@ -1,6 +1,6 @@
 {
   "name": "tc-core-library-js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Topcoder Core library for express based microservices",
   "main": "index.js",
   "author": "Parth Shah",
