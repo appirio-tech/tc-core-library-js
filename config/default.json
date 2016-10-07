@@ -1,3 +1,4 @@
 {
-  "authSecret": ""
+  "authSecret": "",
+  "healthCheckUrl": "_health"
 }
