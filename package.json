@@ -19,12 +19,15 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
+    "auth0-js": "^9.4.2",
     "axios": "^0.12.0",
     "bunyan": "^1.8.1",
     "config": "^1.21.0",
     "jsonwebtoken": "^7.0.0",
+    "jwks-rsa": "^1.2.1",
     "le_node": "^1.3.1",
-    "lodash": "^4.13.1"
+    "lodash": "^4.13.1",
+    "millisecond": "^0.1.2"
   },
   "engines": {
     "node": ">= 5"
