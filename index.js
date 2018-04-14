@@ -16,11 +16,6 @@ exports = module.exports = {
   // util
   // ---------------------------
   util: require('./lib/util'),
-  logger: require('./lib/logger'),
-
-  auth: {
-    m2m: require('./lib/auth/m2m'),
-    verifier: require('./lib/auth/verifier')  
-  }
+  logger: require('./lib/logger')
 
 }
