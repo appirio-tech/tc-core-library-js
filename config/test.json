@@ -1,5 +1,3 @@
 {
-  "authSecret": "secret",
-  "auth0ClientId": "5fctfjaLJHdvM04kSrCcC8yn0I4t1JTd",
-  "auth0ClientSecret": "GhvDENIrYXo-d8xQ10fxm9k7XSVg491vlpvolXyWNBmeBdhsA5BAq2mH4cAAYS0x"
+  "authSecret": "secret"
 }
