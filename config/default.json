@@ -1,9 +1,9 @@
 {
-  "authSecret": "",
-  "healthCheckUrl": "_health",
-  "auth0Url": "https://topcoder-newauth.auth0.com/oauth/token",
-  "auth0Audience": "https://www.topcoder.com",
-  "auth0ClientId": "",
-  "auth0ClientSecret": "",
-  "validIssuers": "[\"https:\/\/topcoder-newauth.auth0.com\/\",\"https:\/\/api.topcoder-dev.com\"]"
+  "AUTH_SECRET": "",
+  "HEALTH_CHECK_URL": "health",
+  "AUTH0_URL": "",
+  "AUTH0_AUDIENCE": "",
+  "AUTH0_CLIENT_ID": "",
+  "AUTH0_CLIENT_SECRET": "",
+  "VALID_ISSUERS": ""
 }
