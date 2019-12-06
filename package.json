@@ -6,27 +6,18 @@
   "author": "Parth Shah",
   "license": "ISC",
   "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-register": "^6.9.0",
-    "chai": "^3.5.0",
-    "chai-as-promised": "^5.3.0",
-    "chai-connect-middleware": "^0.3.1",
-    "istanbul": "^0.4.3",
-    "mocha": "^4.1.0",
-    "node-mocks-http": "^1.5.2",
-    "sinon": "^1.17.4",
-    "sinon-chai": "^2.8.0"
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.2.2"
   },
   "dependencies": {
-    "auth0-js": "^9.4.2",
     "axios": "^0.19.0",
     "bunyan": "^1.8.12",
-    "jsonwebtoken": "^8.3.0",
-    "jwks-rsa": "^1.3.0",
-    "le_node": "^1.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^1.6.0",
     "lodash": "^4.17.15",
     "millisecond": "^0.1.2",
+    "r7insight_node": "^1.8.4",
     "request": "^2.88.0"
   },
   "engines": {
