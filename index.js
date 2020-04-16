@@ -20,7 +20,7 @@ exports = module.exports = {
 
   auth: {
     m2m: require('./lib/auth/m2m'),
-    verifier: require('./lib/auth/verifier')  
+    verifier: require('./lib/auth/verifier'), 
     idToken: require('./lib/auth/idtoken')  
   }
 
