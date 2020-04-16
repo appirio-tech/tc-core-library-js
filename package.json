@@ -18,7 +18,8 @@
     "lodash": "^4.17.15",
     "millisecond": "^0.1.2",
     "r7insight_node": "^1.8.4",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "@auth0/auth0-spa-js": "^1.6.5"
   },
   "engines": {
     "node": ">= 5"
