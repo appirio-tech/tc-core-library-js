@@ -1,6 +1,6 @@
 {
   "name": "tc-core-library-js",
-  "version": "2.4.1",
+  "version": "2.6.8",
   "description": "Topcoder Core library for express based microservices",
   "main": "index.js",
   "author": "Parth Shah",
@@ -11,14 +11,13 @@
     "mocha": "^6.2.2"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.22.0",
     "bunyan": "^1.8.12",
     "jsonwebtoken": "^8.5.1",
     "jwks-rsa": "^1.6.0",
     "lodash": "^4.17.15",
     "millisecond": "^0.1.2",
-    "r7insight_node": "^2.1.0",
-    "request": "^2.88.0"
+    "r7insight_node": "^2.1.0"
   },
   "engines": {
     "node": ">= 5"
