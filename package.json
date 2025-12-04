@@ -11,16 +11,19 @@
     "mocha": "^6.2.2"
   },
   "dependencies": {
-    "axios": "^0.22.0",
+    "axios": "^0.30.2",
     "bunyan": "^1.8.12",
-    "jsonwebtoken": "^8.5.1",
-    "jwks-rsa": "^1.6.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwks-rsa": "^3.2.0",
     "lodash": "^4.17.15",
     "millisecond": "^0.1.2",
     "r7insight_node": "^2.1.0"
   },
+  "overrides": {
+    "axios": "^0.30.2"
+  },
   "engines": {
-    "node": ">= 10"
+    "node": ">= 14"
   },
   "scripts": {
     "test": "SUPPRESS_NO_CONFIG_WARNING=1 ENVIRONMENT=test ./node_modules/.bin/mocha $(find . -path '*spec.js' -not -path './node_modules/*')"
